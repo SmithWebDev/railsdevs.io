@@ -7,4 +7,5 @@ class User < ApplicationRecord
     :validatable
 
   has_one :developer
+  has_many :notifications
 end
